@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+	<!-- stylesheet -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<!-- font -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+</head>
+<body>
+	<section class="grid">
+		<!-- Heading name    -->
+		<h2>Calculator</h2>
+		<!-- Calculator form grid system -->
+		<form class="grid__container" name="form">
+			<input type="text" name="textInput" readonly="">		
+			<input type="button" value = "C" class="grid__items--clear" id="clear">
+			<input type="button" value = "CE" accept="" class="grid__items" id="back">
+			<input type="button" value = "/" class="grid__items oper">
+			<input type="button" value = "*" class="grid__items oper">
+			<input type="button" value = "7" class="grid__items num">
+			<input type="button" value = "8" class="grid__items num">
+			<input type="button" value = "9" class="grid__items num">
+			<input type="button" value = "-" class="grid__items oper">
+			<input type="button" value = "4" class="grid__items num">
+			<input type="button" value = "5" class="grid__items num">
+			<input type="button" value = "6" class="grid__items num">
+			<input type="button" value = "+" class="grid__items oper">
+			<input type="button" value = "1" class="grid__items num">
+			<input type="button" value = "2" class="grid__items num">
+			<input type="button" value = "3" class="grid__items num">
+			<input type="button" value = "=" class="grid__items--equal">		
+			<input type="button" value = "0" class="grid__items num">			
+			<input type="button" value = "00" class="grid__items num">
+			<input type="button" value = "." class="grid__items num">			
+		</form>
+	</section>
+	<!-- script file -->
+	<script src="script.js"></script>
+</body>
+</html>
